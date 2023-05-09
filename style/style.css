@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+}
+
+/* font-family: 'Anton', sans-serif; */
+
+#logo{
+    width: 8.5rem;
+}
+
+#brandTitle{
+    margin: 20px;
+}
+
+.nav-item{
+    padding: 7px;
+    font-size: 1rem;
+    font-family: 'Anton', sans-serif; 
+    text-transform: uppercase;
+}
+
+/* ANIMATIE DROPDOWN */
+.dropdown-menu{
+    background-color: grey;
+    width: 10rem;
+    height: 7rem;
+    transition: all 0.4s;
+}
+
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        background-color: grey;
+        pointer-events: none;
+        opacity: 0;
+        display: block;
+        transition: all 0.4s;
+    }
+    .dropdown:hover .dropdown-menu{
+    display:block;
+    margin-top: 0%;
+    pointer-events: initial;
+    opacity: 1;
+        }
+} 
+/* STOPANIMATIE */
+
+
+
+.dropdown-item{
+    color: white;
+}
+
+#background{
+    width: 990px
+}
+
+/* Carousel icon */
+
+
+/* Testimonial Section */
+
+#testimonials{
+    color: white;
+}
+
+
+
+
+#testimonial-image{
+    width: 100%;
+}
+
+/* Call to Action section */
+
+#cta{
+    color: white;
+    padding: 7% 15%;
+    background-color: #41644A;
+    text-align: center;
+}
+
+
+
+.cta-text{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 900;
+    width: 45rem;
+    margin: auto;
+}
+
+
+@media (max-width: 900px){
+    .cta-text{
+        width: 25rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 570px){
+    .cta-text{
+        width: 15rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px){
+    .cta-text{
+        width: 10rem;
+    }
+}
+
+#cta button{
+    margin: 5% 3% 5% 0;
+}
+
+.iconFooter{
+    margin: 0.5rem;
+}
+
+#footer{
+    padding: 5% 15%;
+}
